@@ -11,7 +11,8 @@ def remove_tags(text):
 def lwr(text):
     return text.lower()
     
-
+import nltk
+nltk.download()
 from nltk.corpus import stopwords
 sw_list=stopwords.words('english')
 
