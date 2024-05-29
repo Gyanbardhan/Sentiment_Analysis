@@ -56,8 +56,8 @@ def clear_text():
 def main():
     
     
-    with open("Sentimental_Analysis_Word2Vec.pkl", 'rb') as file:  
-        rf = pickle.load(file)
+    with open("Sentimental_Analysis_Word2Vec.pkl", 'rb') as file1:  
+        rf = pickle.load(file1)
     st.title('Sentiment Analysis')
     
     text = st.text_input(
