@@ -1,0 +1,10 @@
+re
+pickle
+scikit-learn==1.2.2
+numpy
+pandas
+streamlit
+nltk
+string
+contractions
+gensim
