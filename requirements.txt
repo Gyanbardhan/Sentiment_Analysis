@@ -7,3 +7,4 @@ streamlit
 nltk
 contractions
 gensim
+scipy==1.12
